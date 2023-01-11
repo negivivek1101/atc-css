@@ -1,0 +1,252 @@
+body{
+    margin:0%;
+
+}
+
+*{
+    scroll-behavior: smooth;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4vmax;
+    box-shadow: 0 0 10px  rgba(0, 0, 0, 0.626);
+    position: sticky;
+    top: 0;
+    background-color: azure;
+    z-index: 10000;
+
+}
+
+.left{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3rem;
+}
+
+.left>a{
+    text-decoration: none;
+    letter-spacing: 1vh;
+    color:rgb(187, 48, 222);
+}
+
+
+.mid{
+    width: 60%;
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    font-size: x-large;
+    justify-content:space-evenly ;
+    margin: auto;
+
+}
+
+.mid>a{
+    text-decoration: none;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+    color:rgb(79, 128, 218);
+}
+
+.mid>a:hover{
+    border-bottom: 2px solid rgb(187, 48, 222);
+    color: rgb(187, 48, 222);
+}
+.right{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.right>img{
+width: 2.5vmax;}
+
+.right>img:hover{
+    cursor: pointer;
+}
+
+
+.home{
+    height: 90vh;
+    background-image: linear-gradient( to right, rgb(59, 232, 232), rgb(187, 48, 222));
+    display: flex;
+
+}
+
+.container{
+    width: 100%;
+}
+
+#rcontainer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#rcontainer>img{
+    margin-right: 5vmax;
+    filter: drop-shadow(0 0 10px black);
+}
+
+#lcontainer{
+    display: flex;
+    flex-direction: column;
+    color:aliceblue;
+    padding: 3vmax;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular',     'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+#lcontainer>h1{
+    font-size: 4.5vmax;
+    
+}
+
+#lcontainer>h2{
+    font-size: 3vmax;
+    margin-top: -3vmax;
+
+}
+
+#lcontainer>p{
+    font-size: large;
+    margin-top: 3vmax;
+    margin-left: 3%;
+}
+
+#lcontainer>button{
+    width: 8vmax;
+    padding: 0.5vmax;
+    margin-left: 4vmax;
+    border-radius: 1vmax;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+#lcontainer>button{
+    color: rgb(79, 128, 218);
+}
+
+#lcontainer>button:hover{
+    background-color: rgb(187, 48, 222);
+    color: white;
+}
+
+ #products>h1{
+    text-align: center;
+    margin: 5vmax auto;
+    font-size: 2.5vmax;
+    width: 13vmax;
+    border-bottom: 3.5px solid ;
+    font-size: xx-large;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(187, 48, 222);
+    text-transform: uppercase;
+    padding: 0.3vmax;
+    letter-spacing: 3px;
+}
+
+
+.productsContainer{
+    height: 100%;
+    display: flex;
+    max-width: 80vw;
+    margin: auto;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.product{
+    transition: all 0.3s;
+    cursor: pointer;
+    height: 30vmax;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1vmax;
+   
+}
+
+.product>img{
+    width: 20vmax;
+}
+
+.product>h3{
+    margin: 2%;
+}
+
+.product>h4{
+    margin: 0px;
+}
+.product:hover{
+    transform: translateY(-10px);
+
+}
+ 
+footer{
+    height: 10vmax;
+    margin-top: 6vmax;
+    display: flex;
+    background-color: azure;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.fleft{
+    width: 20%;
+    text-align: center;
+}
+
+.fleft>h1{
+    color: rgb(187, 48, 222);
+
+}
+
+.fleft>p{
+    margin-top: -1vmax;
+}
+.fmid{
+    width: 60%;
+    display: flex;
+}
+
+.fmid>h1{
+  margin-top: 2.5vmax ;
+  margin-left: 6vmax;
+  
+}
+
+.fmid>img{
+    width: 10vmax;
+    margin: 3vmax;
+    margin-left: 6vmax;
+    display: flex;
+    justify-content:end;
+}
+
+.fright{
+    width: 20%;
+}
+
+.fright>h2{
+    margin-top: 2.7vmax;
+    text-align: center;
+}
+
+.fright>a{
+margin-left: 2vmax;
+    text-decoration: none;
+}
+
+
